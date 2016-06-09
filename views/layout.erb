@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bitmakers CRM</title>
+  </head>
+
+  <header>
+    <h1>Super Awesome Contact Manager</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/contacts">View All Contacts</a></li>
+      <li><a href="/contacts/new">Add New Contact</a></li>
+      <li>Modify a Contact</li>
+      <li>Delete a Contact</li>
+      <li>Search by ....</li>
+      <li>Exit</li>
+    <ul>
+  </nav>
+
+  <body>
+
+    <%= yield %>
+
+  </body>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="/contacts">View All Contacts</a></li>
+        <li><a href="/contacts/new">Add New Contact</a></li>
+        <li>Modify a Contact</li>
+        <li>Delete a Contact</li>
+        <li>Search by ....</li>
+        <li>Exit</li>
+      <ul>
+    </nav>
+  </footer>
+
+</html>
