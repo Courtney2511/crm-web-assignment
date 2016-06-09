@@ -3,40 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Bitmakers CRM</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   </head>
 
+  <div class="header">
   <header>
     <h1>Super Awesome Contact Manager</h1>
   </header>
 
   <nav>
-    <ul>
-      <li><a href="/contacts">View All Contacts</a></li>
-      <li><a href="/contacts/new">Add New Contact</a></li>
-      <li>Modify a Contact</li>
-      <li>Delete a Contact</li>
-      <li>Search by ....</li>
+    <ul class>
+      <li><a href="/contacts">View All</a></li>
+      <li><a href="/contacts/new">New Contact</a></li>
+      <li>Modify</li>
+      <li>Delete</li>
+      <li>Search</li>
       <li>Exit</li>
     <ul>
   </nav>
+</div>
 
-  <body>
+<div>
+  <body class="main-content">
 
     <%= yield %>
 
   </body>
+</div>
 
+<div class="footer">
   <footer>
-    <nav>
+    <nav class="li nav">
       <ul>
-        <li><a href="/contacts">View All Contacts</a></li>
-        <li><a href="/contacts/new">Add New Contact</a></li>
-        <li>Modify a Contact</li>
-        <li>Delete a Contact</li>
-        <li>Search by ....</li>
+        <li><a href="/contacts">View</a></li>
+        <li><a href="/contacts/new">New Contact</a></li>
+        <li>Modify</li>
+        <li>Delete</li>
+        <li>Search</li>
         <li>Exit</li>
       <ul>
     </nav>
   </footer>
-
+</div>
 </html>

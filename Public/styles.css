@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: teal;
+  background: teal; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, teal, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, teal, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, teal, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, teal, yellow); /* Standard syntax */
+  margin: 0;
+  height: 100px;
+}
+
+.footer {
+  background-color: teal;
+  background: yellow; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, yellow, teal); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, yellow, teal); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, yellow, teal); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, yellow, teal); /* Standard syntax */
+  margin: 0;
+  height: 100px;
+}
+
+.main-content {
+  background-color: white;
+  max-resolution: 0;
+}
+
+header {
+  font-family: "Indie Flower";
+  font-weight: bold;
+  justify-content: center;
+}
+
+nav li {
+  display: inline;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Open Sans";
+}
