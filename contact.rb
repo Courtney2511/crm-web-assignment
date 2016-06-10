@@ -33,8 +33,7 @@ class Contact
   end
 
   def self.find(id) #find contact by id
-    index = id - 1
-    puts @@contacts[index].full_name
+    @@contacts.find { |contact| contact.id == id }
   end
 
   def update(field_name, value) #UNDER CONSTRUCTION

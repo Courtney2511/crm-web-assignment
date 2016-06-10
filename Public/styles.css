@@ -1,7 +1,28 @@
+
+/* --- Main Styling --- */
 body {
+  margin: 0;
+  color: #393B3D;
+}
+
+h1 {
   margin: 0;
 }
 
+h2, p {
+  font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none;
+  color: #393B3D;
+}
+
+a:hover {
+  color: white;
+}
+
+/* --- Header --- */
 .header {
   background-color: teal;
   background: teal; /* For browsers that do not support gradients */
@@ -13,6 +34,32 @@ body {
   height: 100px;
 }
 
+header {
+  font-family: "Indie Flower";
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/* --- Navigation --- */
+
+nav li {
+  display: inline;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* --- Main Content --- */
+
+.main-content {
+  background-color: white;
+  margin: 50px 20px 50px 20px;
+}
+
+/* --- Footer --- */
+
 .footer {
   background-color: teal;
   background: yellow; /* For browsers that do not support gradients */
@@ -20,31 +67,6 @@ body {
   background: -o-linear-gradient(bottom right, yellow, teal); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, yellow, teal); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, yellow, teal); /* Standard syntax */
-  margin: 0;
+  margin: 16px 0 16px 0;
   height: 100px;
-}
-
-.main-content {
-  background-color: white;
-  max-resolution: 0;
-}
-
-header {
-  font-family: "Indie Flower";
-  font-weight: bold;
-  justify-content: center;
-}
-
-nav li {
-  display: inline;
-  font-family: Arial, sans-serif;
-  text-transform: uppercase;
-}
-
-h1 {
-  margin: 0;
-}
-
-h2 {
-  font-family: "Open Sans";
 }
