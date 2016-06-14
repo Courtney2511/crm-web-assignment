@@ -19,7 +19,7 @@ post '/contacts' do
   first_name: params[:first_name],
   last_name:  params[:last_name],
   email:      params[:email],
-  note:       params[:nate]
+  note:       params[:note]
   )
   redirect to('/contacts')
 end
@@ -49,7 +49,7 @@ put '/contacts/:id' do
     @contact.last_name = params[:last_name]
     @contact.email = params[:email]
     @contact.note = params[:note]
-
+    @contact.save
     redirect to('/contacts')
   else
     raise Sinatra::NotFound
@@ -59,7 +59,7 @@ end
 delete '/contacts/:id' do
   @contact = Contact.find(params[:id].to_i)
   if @contact
-    @contact.delete
+    @contact.destroy
     redirect to('/contacts')
   else
     raise Sinatra::NotFound

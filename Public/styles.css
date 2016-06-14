@@ -19,26 +19,26 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: purple;
 }
 
-/* --- Header --- */
+/* --- Header
 .header {
   background-color: teal;
-  background: teal; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, teal, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, teal, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, teal, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, teal, yellow); /* Standard syntax */
+  background: teal;
+  background: -webkit-linear-gradient(left top, teal, yellow);
+  background: -o-linear-gradient(bottom right, teal, yellow);
+  background: -moz-linear-gradient(bottom right, teal, yellow);
+  background: linear-gradient(to bottom right, teal, yellow);
   margin: 0;
   height: 100px;
 }
+--- */
 
 #app_name {
-  font-family: "Indie Flower";
-  font-weight: bold;
+  font-family: "Arimo";
   text-align: center;
-  color: white;
+  color: black;
 }
 
 /* --- Navigation --- */
@@ -62,15 +62,16 @@ nav li {
   float:right;
 }
 
-/* --- Footer --- */
+/* --- Footer
 
 .footer {
   background-color: teal;
-  background: yellow; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, yellow, teal); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, yellow, teal); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, yellow, teal); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, yellow, teal); /* Standard syntax */
+  background: yellow;
+  background: -webkit-linear-gradient(left top, yellow, teal);
+  background: -o-linear-gradient(bottom right, yellow, teal);
+  background: -moz-linear-gradient(bottom right, yellow, teal);
+  background: linear-gradient(to bottom right, yellow, teal);
   padding: 16px 0 16px 0;
   height: 100px;
 }
+--- */
